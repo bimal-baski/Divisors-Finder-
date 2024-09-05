@@ -1,0 +1,103 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+/* Input and button styling */
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Media Queries for Mobile Screen Sizes */
+
+/* For small mobile devices (up to 480px wide) */
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+/* For tablets (up to 768px wide) */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+        max-width: 80%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    input, button {
+        font-size: 16px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+}
